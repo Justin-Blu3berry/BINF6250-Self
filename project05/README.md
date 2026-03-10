@@ -95,7 +95,7 @@ Other members' reflections on the project
 
 
 ### Nicholas: 
-
+This assignment felt like a nice step back from the previous couple assignments. It was a relatively straightforward solution without much need for adaptation of our original pseudocode as went. Overall, it felt good to have a successful project that went as expected without many hiccups or obstacles along the way.
 
 # Generative AI Appendix
 As per the syllabus
