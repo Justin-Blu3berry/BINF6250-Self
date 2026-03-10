@@ -52,7 +52,7 @@ only curr_row gets decreased by 1
 
 At the end, reverse the lists of nucleotides and package them as two separate strings
 
-smith_waterman
+Smith_waterman function: 
 	aka our driver function
 Create graph shell based on len(reference) + 1 and len(query sequence) + 1
 	Default value = 0
@@ -62,7 +62,7 @@ Make a duplicate where the default value is empty lists
 Initialize a tuple for the coordinates of the max score position
 Initialize the max score: 0
 
-Calculate scores by index (i, j)  i = col, j = row
+Calculate scores by index (i, j)  i = row, j = col
 	Nested iteration over all pairwise comparisons to calculate matrix scores
 		Call cal_score on current position in the matrix → gives us a score and a list of traceback directions
 		Update the score at i,j in the score matrix
