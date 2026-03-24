@@ -218,7 +218,7 @@ Description of the stumbling blocks the team experienced
 Group leader's reflection on the project
 
 ## Meghana
-Other members' reflections on the project
+The Burrows-Wheeler Transform was a little confusing to me at first. Our group spent a good amount of time working on the pseudocode, making sure it was really clear and detailed before we started coding. This made the implementation much more straightforward for me. Writing the actual functions ended up being much quicker and simpler because of how detailed each step in our pseudocode was. Justin and Sneha were great to work with, we talked through the algorithm a lot which helped my understanding and I learned some new ways to approach certain steps in code from them!
 
 ## Sneha
 Other members' reflections on the project
