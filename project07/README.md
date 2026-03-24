@@ -1,7 +1,8 @@
 # Introduction
-This is our submission of project 7 for BINF 6250, implementing the Burrows-Wheeler Transform as a fast string-searching algorithm and using it as a prerequisite to compressing strings via run-length encoding. 
+Description of the project
 
 # Pseudocode
+Put pseudocode in this box:
 
 ```
 BWT func
@@ -207,20 +208,20 @@ NOTE: we're assuming no numbers in the original string (if the character is a nu
 ```
 
 # Successes
-Our planning process and pseudocoding session went very well, and we came out of it with a very clear understanding of how we want to implement all of our functions. We were very thorough in our planning and took time to make sure that we understood what we were doing at every step and why we were doing it, since BWT on its own can be a little confusing, much less using it as a string searching algorithm. Thankfully, we were able to talk ourselves through each stage of the project and course-correct each other when we got lost. In the end, we all came out of this project with a much more robust understanding of the BWT and how and why we're able to use it for string searching. 
+Our group was lucky in that our availability matched up well, and successful in getting a head start so that we were not in a time crunch at all. We were able to meet early in the week and discuss the psuedocode in detail, which made the implementation very straightforward. Because we were able to go over the algorithm pretty thouroughly, we all felt comfident going into coding it. 
 
 # Struggles
-There was a bit of a learning curve to breaking down the BWT, and more importantly discerning the purpose of each of the steps we need to do along the way. In truth, the conceptual basis for the formulae we talked about in class for `update_range()` continues to elude us, but aside from that, we were able to piece together a solid understanding of pretty much everything else. Luckily, we didn't really have any issues with implementation, so our problems were primarily contained to our conceptual understanding of the algorithm towards the beginning of the planning stage. 
+Description of the stumbling blocks the team experienced
 
 # Personal Reflections
 ## Justin (Group Leader)
-Working with Meghana and Sneha on this project was quite enjoyable. We came into this with some uncertainties about why we would want to use a string compression algorithm as a searching algorithm, much less how we're even able to do so. Our schedules lined up really well, which let us get cracking on the project nice and early, which gave us the room to breathe and take our time to break down the concepts and understand the reasoning behind each step. Our pseudocoding session was quite productive, and I appreciate that we took the time to take detailed notes in our pseudocode and be explicit about why each step is important and what it actually represents. This made our subsequent scripting session a breeze, as we had frontloaded all of the thought and time needed to understand what we were doing and think about what kinds of adaptations we could make along the way. This was a very fun project to chew on once we got past the initial confusion. 
+Group leader's reflection on the project
 
 ## Meghana
 The Burrows-Wheeler Transform was a little confusing to me at first. Our group spent a good amount of time working on the pseudocode, making sure it was really clear and detailed before we started coding. This made the implementation much more straightforward for me. Writing the actual functions ended up being much quicker and simpler because of how detailed each step in our pseudocode was. Justin and Sneha were great to work with, we talked through the algorithm a lot which helped my understanding and I learned some new ways to approach certain steps in code from them!
 
 ## Sneha
-Other members' reflections on the project
+I enjoyed working with Justin and Meghana. We were very thorough with our psuedocode and it was really helpful to talk over each component of the Burrows-Wheeler Transform with them to gain a better understanding of what each function is doing. This made our implementatino a fairly quick proceess, and we were all on the same page when coding because we had gone over the entire foundation together. I was expecting the encoding and decoding to be very simple, but it proved to be a slightly more complex because I had not considered the possibility of having a double digit number as a count when decoding. Overall, I really liked this project and spending more time on the psuedocode made the implementation all the more enjoyable.
 
 # Generative AI Appendix
 As per the syllabus
