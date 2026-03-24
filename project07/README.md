@@ -220,7 +220,7 @@ Working with Meghana and Sneha on this project was quite enjoyable. We came into
 The Burrows-Wheeler Transform was a little confusing to me at first. Our group spent a good amount of time working on the pseudocode, making sure it was really clear and detailed before we started coding. This made the implementation much more straightforward for me. Writing the actual functions ended up being much quicker and simpler because of how detailed each step in our pseudocode was. Justin and Sneha were great to work with, we talked through the algorithm a lot which helped my understanding and I learned some new ways to approach certain steps in code from them!
 
 ## Sneha
-Other members' reflections on the project
+I enjoyed working with Justin and Meghana. We were very thorough with our psuedocode and it was really helpful to talk over each component of the Burrows-Wheeler Transform with them to gain a better understanding of what each function is doing. This made our implementatino a fairly quick proceess, and we were all on the same page when coding because we had gone over the entire foundation together. I was expecting the encoding and decoding to be very simple, but it proved to be a slightly more complex because I had not considered the possibility of having a double digit number as a count when decoding. Overall, I really liked this project and spending more time on the psuedocode made the implementation all the more enjoyable.
 
 # Generative AI Appendix
 As per the syllabus
